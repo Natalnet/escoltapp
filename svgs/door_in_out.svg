@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="door_in_out.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="146.17233"
+     inkscape:cy="669.09759"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.16064262;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 51.067059,92.624312 -13.421385,2.063175 v 22.713023 l 13.421385,2.06318 z m -1.70742,11.952538 a 1.1422456,1.3160434 0 0 1 1.142247,1.31574 1.1422456,1.3160434 0 0 1 -1.142247,1.31629 1.1422456,1.3160434 0 0 1 -1.142245,-1.31629 1.1422456,1.3160434 0 0 1 1.142245,-1.31574 z"
+       id="path3713-3-5"
+       inkscape:export-filename="C:\Users\igorosberg\git\escoltapp-project\escoltapp\app\src\main\res\drawable-xxxhdpi\door_out.png"
+       inkscape:export-xdpi="174.22"
+       inkscape:export-ydpi="174.22" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.77174675;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 53.27835,108.3558 v -5.02592 h 4.867428 v -1.42073 l 6.525442,4.04295 -6.428093,3.93371 v -1.63927 z"
+       id="path4522-7-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="C:\Users\igorosberg\git\escoltapp-project\escoltapp\app\src\main\res\drawable-xxxhdpi\door_out.png"
+       inkscape:export-xdpi="174.22"
+       inkscape:export-ydpi="174.22" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 38.703984,95.216788 16.965117,-0.529167 v 5.582609"
+       id="path4524-1-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\igorosberg\git\escoltapp-project\escoltapp\app\src\main\res\drawable-xxxhdpi\door_out.png"
+       inkscape:export-xdpi="174.22"
+       inkscape:export-ydpi="174.22" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 38.703984,116.87124 17.019511,0.52917 v -5.97983"
+       id="path4526-5-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\igorosberg\git\escoltapp-project\escoltapp\app\src\main\res\drawable-xxxhdpi\door_out.png"
+       inkscape:export-xdpi="174.22"
+       inkscape:export-ydpi="174.22" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.16064262;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 89.006605,92.883509 75.58522,94.946679 V 117.6597 l 13.421385,2.06318 z m -1.70742,11.952531 a 1.1422456,1.3160434 0 0 1 1.142248,1.31574 1.1422456,1.3160434 0 0 1 -1.142248,1.31629 1.1422456,1.3160434 0 0 1 -1.142245,-1.31629 1.1422456,1.3160434 0 0 1 1.142245,-1.31574 z"
+       id="path3713-3-5-3"
+       inkscape:export-filename="C:\Users\igorosberg\git\escoltapp-project\escoltapp\app\src\main\res\drawable-xxxhdpi\door_in.png"
+       inkscape:export-xdpi="174.22"
+       inkscape:export-ydpi="174.22" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.77174675;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 102.61073,108.61499 v -5.02592 h -4.867431 v -1.42073 l -6.525437,4.04295 6.428087,3.93371 v -1.63927 z"
+       id="path4522-7-6-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="C:\Users\igorosberg\git\escoltapp-project\escoltapp\app\src\main\res\drawable-xxxhdpi\door_in.png"
+       inkscape:export-xdpi="174.22"
+       inkscape:export-ydpi="174.22" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 76.64353,95.475979 16.965113,-0.52917 v 5.582611"
+       id="path4524-1-1-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\igorosberg\git\escoltapp-project\escoltapp\app\src\main\res\drawable-xxxhdpi\door_in.png"
+       inkscape:export-xdpi="174.22"
+       inkscape:export-ydpi="174.22" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 76.64353,117.13043 17.019513,0.52917 v -5.97983"
+       id="path4526-5-4-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\igorosberg\git\escoltapp-project\escoltapp\app\src\main\res\drawable-xxxhdpi\door_in.png"
+       inkscape:export-xdpi="174.22"
+       inkscape:export-ydpi="174.22" />
+  </g>
+</svg>

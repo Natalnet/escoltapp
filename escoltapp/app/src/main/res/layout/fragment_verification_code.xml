@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/typeCodeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/insertCodeSent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/insert_code_sent"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/typedCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:hint="@string/sms_code_hint"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:maxLength="6"
+        tools:ignore="Autofill,TextFields"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/sendCodeAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/send_auth_code_again"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="35dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/submmitVerificationCodeFAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_arrow_forward_black_24dp"/>
+    </FrameLayout>
+
+</LinearLayout>

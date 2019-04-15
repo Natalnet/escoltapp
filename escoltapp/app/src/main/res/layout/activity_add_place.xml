@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asterisk"
+                android:textColor="@color/errorMessageColor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:textColor="@android:color/black"
+                android:background="@android:color/transparent"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/black"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/chooseLocationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_add_location_black_24dp"
+            android:text="@string/choose_location"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="?attr/selectableItemBackground"/>
+
+        <fragment
+            android:id="@+id/mapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center_horizontal"
+            class="com.google.android.gms.maps.SupportMapFragment"/>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/doneFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/ic_done_black_24dp"/>
+
+</FrameLayout>
+

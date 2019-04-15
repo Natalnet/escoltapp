@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/default_profile_img"
+                android:contentDescription="@string/profile_img" />
+
+            <TextView
+                android:id="@+id/changeProfileImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/change_photo"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/first_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/asterisk"
+                    android:textColor="@color/errorMessageColor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/userFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapSentences"
+                    android:maxLength="20"
+                    android:textColor="@android:color/black"
+                    android:background="@android:color/transparent"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@android:color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/asterisk"
+                    android:textColor="@color/errorMessageColor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/userLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapSentences"
+                    android:maxLength="20"
+                    android:textColor="@android:color/black"
+                    android:background="@android:color/transparent"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@android:color/black"/>
+            </LinearLayout>
+
+            <!--<Button
+                android:id="@+id/chooseLocationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_add_location_black_24dp"
+                android:text="@string/choose_location"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="?attr/selectableItemBackground"/>
+
+            <fragment
+                android:id="@+id/placeMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center_horizontal"
+                class="com.google.android.gms.maps.SupportMapFragment"/>-->
+
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/submmitProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        android:clickable="true"
+        android:src="@drawable/ic_arrow_forward_black_24dp"
+        android:focusable="true" />
+</FrameLayout>
